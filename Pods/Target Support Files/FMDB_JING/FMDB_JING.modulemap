@@ -1,0 +1,6 @@
+framework module FMDB_JING {
+  umbrella header "FMDB_JING-umbrella.h"
+
+  export *
+  module * { export * }
+}
