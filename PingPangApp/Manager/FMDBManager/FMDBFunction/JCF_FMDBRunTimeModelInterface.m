@@ -146,6 +146,7 @@
     IMP imp = [_modelClass methodForSelector:selector];
     Class (*function)(id, SEL) = (__typeof__(function))imp;
     Class class = function(_modelClass, selector);
+//    objc_msgSend(_modelClass,selector,nil);
     return class;
 }
 #pragma mark 获取属性名 及其 对应的类型

@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 // 额外信息补充
 @interface UserAccountInfoAdditional : NSObject
+@property (nonatomic, readonly) NSNumber * ID;
+@property (nonatomic, readonly) NSString * address;
+@property (nonatomic, readonly) NSString * upload;
+@property (nonatomic, readonly) NSString * image;
+
 - (instancetype)initWithDictionary:(NSDictionary *)infoAdditionalDictionary;
 @end

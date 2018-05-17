@@ -15,6 +15,18 @@
  * 避免继承，必须要用类方法
  */
 + (NSArray *)transients;
+
+
+/**
+ * 注意 ⚠️⚠️⚠️
+ * xxxJCFModel model嵌套需要实现此方法
+ * xxxJCFModelArray model数组嵌套需要实现此方法
+ */
+#pragma mark +(Class)属性名+JCFModel
+//+ (Class)xxxJCFModel;
+#pragma mark +(Class)属性名+JCFModelArray
+//+ (Class)xxxJCFModelArray;
+
 /**
  * 每个类必须设置主键
  * 主键必须是已经存在的属性  eg: ID
@@ -32,6 +44,5 @@
  * model 的嵌套        (属性名+JCF+Model)
  * modelArray 的嵌套   (属性名+JCF+ModelArray)
  */
-//+ (Class)xxxJCFModel;
-//+ (Class)xxxJCFModelArray;
+
 @end

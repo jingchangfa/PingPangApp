@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F24E3A0205CE5C50019A0BE /* JCF_FMDBConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24E391205CE5C50019A0BE /* JCF_FMDBConfiguration.m */; };
+		3F24E3A1205CE5C50019A0BE /* JCF_FMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24E393205CE5C50019A0BE /* JCF_FMDBManager.m */; };
+		3F24E3A2205CE5C50019A0BE /* JCF_FMDBModelToSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24E396205CE5C50019A0BE /* JCF_FMDBModelToSQL.m */; };
+		3F24E3A3205CE5C50019A0BE /* JCF_FMDBRunTimeModelInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24E398205CE5C50019A0BE /* JCF_FMDBRunTimeModelInterface.m */; };
+		3F24E3A4205CE5C50019A0BE /* JCF_FMDBSQLToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24E39A205CE5C50019A0BE /* JCF_FMDBSQLToModel.m */; };
+		3F24E3A5205CE5C50019A0BE /* JCF_FMDBTypeChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24E39C205CE5C50019A0BE /* JCF_FMDBTypeChange.m */; };
+		3F24E3A6205CE5C50019A0BE /* JCF_FMDBSQLStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24E39F205CE5C50019A0BE /* JCF_FMDBSQLStatement.m */; };
+		3F24E3A9205CE5DD0019A0BE /* KapFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24E3A8205CE5DD0019A0BE /* KapFMDBManager.m */; };
+		3F24E3B3205CEAE50019A0BE /* UserAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24E3AD205CEAE50019A0BE /* UserAccount.m */; };
+		3F24E3B4205CEAE50019A0BE /* UserAccountInfoAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24E3AF205CEAE50019A0BE /* UserAccountInfoAdditional.m */; };
+		3F24E3B5205CEAE50019A0BE /* UserAccountStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24E3B1205CEAE50019A0BE /* UserAccountStore.m */; };
 		3F380EA81ED559540063B73A /* PPJ_TabBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F380EA71ED559540063B73A /* PPJ_TabBarManager.m */; };
 		3F79C8301ED52CA20095148D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C82F1ED52CA20095148D /* main.m */; };
 		3F79C8331ED52CA20095148D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8321ED52CA20095148D /* AppDelegate.m */; };
@@ -51,13 +62,6 @@
 		3F79C8FE1ED52F2F0095148D /* PrefsMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8B01ED52F2F0095148D /* PrefsMicrophone.m */; };
 		3F79C8FF1ED52F2F0095148D /* PrefsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8B21ED52F2F0095148D /* PrefsPhoto.m */; };
 		3F79C9001ED52F2F0095148D /* KapHudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8B51ED52F2F0095148D /* KapHudManager.m */; };
-		3F79C9011ED52F2F0095148D /* JCF_FMDBConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8B91ED52F2F0095148D /* JCF_FMDBConfiguration.m */; };
-		3F79C9021ED52F2F0095148D /* JCF_FMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8BB1ED52F2F0095148D /* JCF_FMDBManager.m */; };
-		3F79C9031ED52F2F0095148D /* JCF_FMDBModelToSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8BE1ED52F2F0095148D /* JCF_FMDBModelToSQL.m */; };
-		3F79C9041ED52F2F0095148D /* JCF_FMDBRunTimeModelInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8C01ED52F2F0095148D /* JCF_FMDBRunTimeModelInterface.m */; };
-		3F79C9051ED52F2F0095148D /* JCF_FMDBSQLToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8C21ED52F2F0095148D /* JCF_FMDBSQLToModel.m */; };
-		3F79C9061ED52F2F0095148D /* JCF_FMDBTypeChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8C41ED52F2F0095148D /* JCF_FMDBTypeChange.m */; };
-		3F79C9071ED52F2F0095148D /* JCF_FMDBSQLStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8C71ED52F2F0095148D /* JCF_FMDBSQLStatement.m */; };
 		3F79C9081ED52F2F0095148D /* CeShiCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8CA1ED52F2F0095148D /* CeShiCar.m */; };
 		3F79C9091ED52F2F0095148D /* CeShiDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8CC1ED52F2F0095148D /* CeShiDog.m */; };
 		3F79C90A1ED52F2F0095148D /* CeShiPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8CE1ED52F2F0095148D /* CeShiPeople.m */; };
@@ -67,9 +71,6 @@
 		3F79C90E1ED52F2F0095148D /* SupermarketModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8D61ED52F2F0095148D /* SupermarketModel.m */; };
 		3F79C90F1ED52F2F0095148D /* NavigationControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8D91ED52F2F0095148D /* NavigationControllerBase.m */; };
 		3F79C9101ED52F2F0095148D /* TabBarControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C8DB1ED52F2F0095148D /* TabBarControllerBase.m */; };
-		3F79C9201ED53F330095148D /* UserAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C91B1ED53F330095148D /* UserAccount.m */; };
-		3F79C9211ED53F330095148D /* UserAccountStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C91D1ED53F330095148D /* UserAccountStore.m */; };
-		3F79C9221ED53F330095148D /* UserAccountInfoAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C91F1ED53F330095148D /* UserAccountInfoAdditional.m */; };
 		3F79C9301ED544110095148D /* PPJ_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C92F1ED544110095148D /* PPJ_HomeViewController.m */; };
 		3F79C9331ED5441D0095148D /* PPJ_StoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C9321ED5441D0095148D /* PPJ_StoreViewController.m */; };
 		3F79C9361ED544280095148D /* PPJ_BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79C9351ED544280095148D /* PPJ_BuyViewController.m */; };
@@ -95,6 +96,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F24E38F205CE5C50019A0BE /* JCF_FMDBBlockHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBBlockHeader.h; sourceTree = "<group>"; };
+		3F24E390205CE5C50019A0BE /* JCF_FMDBConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBConfiguration.h; sourceTree = "<group>"; };
+		3F24E391205CE5C50019A0BE /* JCF_FMDBConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBConfiguration.m; sourceTree = "<group>"; };
+		3F24E392205CE5C50019A0BE /* JCF_FMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBManager.h; sourceTree = "<group>"; };
+		3F24E393205CE5C50019A0BE /* JCF_FMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBManager.m; sourceTree = "<group>"; };
+		3F24E394205CE5C50019A0BE /* JCF_FMDBModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBModelProtocol.h; sourceTree = "<group>"; };
+		3F24E395205CE5C50019A0BE /* JCF_FMDBModelToSQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBModelToSQL.h; sourceTree = "<group>"; };
+		3F24E396205CE5C50019A0BE /* JCF_FMDBModelToSQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBModelToSQL.m; sourceTree = "<group>"; };
+		3F24E397205CE5C50019A0BE /* JCF_FMDBRunTimeModelInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBRunTimeModelInterface.h; sourceTree = "<group>"; };
+		3F24E398205CE5C50019A0BE /* JCF_FMDBRunTimeModelInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBRunTimeModelInterface.m; sourceTree = "<group>"; };
+		3F24E399205CE5C50019A0BE /* JCF_FMDBSQLToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBSQLToModel.h; sourceTree = "<group>"; };
+		3F24E39A205CE5C50019A0BE /* JCF_FMDBSQLToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBSQLToModel.m; sourceTree = "<group>"; };
+		3F24E39B205CE5C50019A0BE /* JCF_FMDBTypeChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBTypeChange.h; sourceTree = "<group>"; };
+		3F24E39C205CE5C50019A0BE /* JCF_FMDBTypeChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBTypeChange.m; sourceTree = "<group>"; };
+		3F24E39E205CE5C50019A0BE /* JCF_FMDBSQLStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBSQLStatement.h; sourceTree = "<group>"; };
+		3F24E39F205CE5C50019A0BE /* JCF_FMDBSQLStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBSQLStatement.m; sourceTree = "<group>"; };
+		3F24E3A7205CE5DD0019A0BE /* KapFMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KapFMDBManager.h; sourceTree = "<group>"; };
+		3F24E3A8205CE5DD0019A0BE /* KapFMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KapFMDBManager.m; sourceTree = "<group>"; };
+		3F24E3AC205CEAE50019A0BE /* UserAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccount.h; sourceTree = "<group>"; };
+		3F24E3AD205CEAE50019A0BE /* UserAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccount.m; sourceTree = "<group>"; };
+		3F24E3AE205CEAE50019A0BE /* UserAccountInfoAdditional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccountInfoAdditional.h; sourceTree = "<group>"; };
+		3F24E3AF205CEAE50019A0BE /* UserAccountInfoAdditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccountInfoAdditional.m; sourceTree = "<group>"; };
+		3F24E3B0205CEAE50019A0BE /* UserAccountStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccountStore.h; sourceTree = "<group>"; };
+		3F24E3B1205CEAE50019A0BE /* UserAccountStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccountStore.m; sourceTree = "<group>"; };
+		3F24E3B2205CEAE50019A0BE /* KapAuthManagerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KapAuthManagerHeader.h; sourceTree = "<group>"; };
 		3F380EA61ED559540063B73A /* PPJ_TabBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJ_TabBarManager.h; sourceTree = "<group>"; };
 		3F380EA71ED559540063B73A /* PPJ_TabBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJ_TabBarManager.m; sourceTree = "<group>"; };
 		3F380EA91ED563590063B73A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -188,22 +214,6 @@
 		3F79C8B21ED52F2F0095148D /* PrefsPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsPhoto.m; sourceTree = "<group>"; };
 		3F79C8B41ED52F2F0095148D /* KapHudManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KapHudManager.h; sourceTree = "<group>"; };
 		3F79C8B51ED52F2F0095148D /* KapHudManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KapHudManager.m; sourceTree = "<group>"; };
-		3F79C8B71ED52F2F0095148D /* JCF_FMDBBlockHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBBlockHeader.h; sourceTree = "<group>"; };
-		3F79C8B81ED52F2F0095148D /* JCF_FMDBConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBConfiguration.h; sourceTree = "<group>"; };
-		3F79C8B91ED52F2F0095148D /* JCF_FMDBConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBConfiguration.m; sourceTree = "<group>"; };
-		3F79C8BA1ED52F2F0095148D /* JCF_FMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBManager.h; sourceTree = "<group>"; };
-		3F79C8BB1ED52F2F0095148D /* JCF_FMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBManager.m; sourceTree = "<group>"; };
-		3F79C8BC1ED52F2F0095148D /* JCF_FMDBModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBModelProtocol.h; sourceTree = "<group>"; };
-		3F79C8BD1ED52F2F0095148D /* JCF_FMDBModelToSQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBModelToSQL.h; sourceTree = "<group>"; };
-		3F79C8BE1ED52F2F0095148D /* JCF_FMDBModelToSQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBModelToSQL.m; sourceTree = "<group>"; };
-		3F79C8BF1ED52F2F0095148D /* JCF_FMDBRunTimeModelInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBRunTimeModelInterface.h; sourceTree = "<group>"; };
-		3F79C8C01ED52F2F0095148D /* JCF_FMDBRunTimeModelInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBRunTimeModelInterface.m; sourceTree = "<group>"; };
-		3F79C8C11ED52F2F0095148D /* JCF_FMDBSQLToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBSQLToModel.h; sourceTree = "<group>"; };
-		3F79C8C21ED52F2F0095148D /* JCF_FMDBSQLToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBSQLToModel.m; sourceTree = "<group>"; };
-		3F79C8C31ED52F2F0095148D /* JCF_FMDBTypeChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBTypeChange.h; sourceTree = "<group>"; };
-		3F79C8C41ED52F2F0095148D /* JCF_FMDBTypeChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBTypeChange.m; sourceTree = "<group>"; };
-		3F79C8C61ED52F2F0095148D /* JCF_FMDBSQLStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCF_FMDBSQLStatement.h; sourceTree = "<group>"; };
-		3F79C8C71ED52F2F0095148D /* JCF_FMDBSQLStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCF_FMDBSQLStatement.m; sourceTree = "<group>"; };
 		3F79C8C91ED52F2F0095148D /* CeShiCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeShiCar.h; sourceTree = "<group>"; };
 		3F79C8CA1ED52F2F0095148D /* CeShiCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CeShiCar.m; sourceTree = "<group>"; };
 		3F79C8CB1ED52F2F0095148D /* CeShiDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeShiDog.h; sourceTree = "<group>"; };
@@ -222,12 +232,6 @@
 		3F79C8D91ED52F2F0095148D /* NavigationControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerBase.m; sourceTree = "<group>"; };
 		3F79C8DA1ED52F2F0095148D /* TabBarControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarControllerBase.h; sourceTree = "<group>"; };
 		3F79C8DB1ED52F2F0095148D /* TabBarControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarControllerBase.m; sourceTree = "<group>"; };
-		3F79C91A1ED53F330095148D /* UserAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccount.h; sourceTree = "<group>"; };
-		3F79C91B1ED53F330095148D /* UserAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccount.m; sourceTree = "<group>"; };
-		3F79C91C1ED53F330095148D /* UserAccountStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccountStore.h; sourceTree = "<group>"; };
-		3F79C91D1ED53F330095148D /* UserAccountStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccountStore.m; sourceTree = "<group>"; };
-		3F79C91E1ED53F330095148D /* UserAccountInfoAdditional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccountInfoAdditional.h; sourceTree = "<group>"; };
-		3F79C91F1ED53F330095148D /* UserAccountInfoAdditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccountInfoAdditional.m; sourceTree = "<group>"; };
 		3F79C92E1ED544110095148D /* PPJ_HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJ_HomeViewController.h; sourceTree = "<group>"; };
 		3F79C92F1ED544110095148D /* PPJ_HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJ_HomeViewController.m; sourceTree = "<group>"; };
 		3F79C9311ED5441D0095148D /* PPJ_StoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJ_StoreViewController.h; sourceTree = "<group>"; };
@@ -276,6 +280,69 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3F24E38D205CE5C50019A0BE /* FMDBManager */ = {
+			isa = PBXGroup;
+			children = (
+				3F24E3A7205CE5DD0019A0BE /* KapFMDBManager.h */,
+				3F24E3A8205CE5DD0019A0BE /* KapFMDBManager.m */,
+				3F24E38E205CE5C50019A0BE /* FMDBFunction */,
+			);
+			path = FMDBManager;
+			sourceTree = "<group>";
+		};
+		3F24E38E205CE5C50019A0BE /* FMDBFunction */ = {
+			isa = PBXGroup;
+			children = (
+				3F24E38F205CE5C50019A0BE /* JCF_FMDBBlockHeader.h */,
+				3F24E390205CE5C50019A0BE /* JCF_FMDBConfiguration.h */,
+				3F24E391205CE5C50019A0BE /* JCF_FMDBConfiguration.m */,
+				3F24E392205CE5C50019A0BE /* JCF_FMDBManager.h */,
+				3F24E393205CE5C50019A0BE /* JCF_FMDBManager.m */,
+				3F24E394205CE5C50019A0BE /* JCF_FMDBModelProtocol.h */,
+				3F24E395205CE5C50019A0BE /* JCF_FMDBModelToSQL.h */,
+				3F24E396205CE5C50019A0BE /* JCF_FMDBModelToSQL.m */,
+				3F24E397205CE5C50019A0BE /* JCF_FMDBRunTimeModelInterface.h */,
+				3F24E398205CE5C50019A0BE /* JCF_FMDBRunTimeModelInterface.m */,
+				3F24E399205CE5C50019A0BE /* JCF_FMDBSQLToModel.h */,
+				3F24E39A205CE5C50019A0BE /* JCF_FMDBSQLToModel.m */,
+				3F24E39B205CE5C50019A0BE /* JCF_FMDBTypeChange.h */,
+				3F24E39C205CE5C50019A0BE /* JCF_FMDBTypeChange.m */,
+				3F24E39D205CE5C50019A0BE /* SQLStatementTool */,
+			);
+			path = FMDBFunction;
+			sourceTree = "<group>";
+		};
+		3F24E39D205CE5C50019A0BE /* SQLStatementTool */ = {
+			isa = PBXGroup;
+			children = (
+				3F24E39E205CE5C50019A0BE /* JCF_FMDBSQLStatement.h */,
+				3F24E39F205CE5C50019A0BE /* JCF_FMDBSQLStatement.m */,
+			);
+			path = SQLStatementTool;
+			sourceTree = "<group>";
+		};
+		3F24E3AA205CEAE50019A0BE /* AuthManager */ = {
+			isa = PBXGroup;
+			children = (
+				3F24E3B2205CEAE50019A0BE /* KapAuthManagerHeader.h */,
+				3F24E3AB205CEAE50019A0BE /* Auth */,
+			);
+			path = AuthManager;
+			sourceTree = "<group>";
+		};
+		3F24E3AB205CEAE50019A0BE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3F24E3AC205CEAE50019A0BE /* UserAccount.h */,
+				3F24E3AD205CEAE50019A0BE /* UserAccount.m */,
+				3F24E3AE205CEAE50019A0BE /* UserAccountInfoAdditional.h */,
+				3F24E3AF205CEAE50019A0BE /* UserAccountInfoAdditional.m */,
+				3F24E3B0205CEAE50019A0BE /* UserAccountStore.h */,
+				3F24E3B1205CEAE50019A0BE /* UserAccountStore.m */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		3F380EAA1ED564EF0063B73A /* PCHFile */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,15 +382,13 @@
 				3F79C8321ED52CA20095148D /* AppDelegate.m */,
 				3F79C8341ED52CA20095148D /* ViewController.h */,
 				3F79C8351ED52CA20095148D /* ViewController.m */,
-				3F79C8611ED52F2F0095148D /* AuthManager */,
 				3F79C8621ED52F2F0095148D /* BaseView */,
 				3F79C8761ED52F2F0095148D /* Category */,
-				3F79C8831ED52F2F0095148D /* Controllers */,
 				3F79C8921ED52F2F0095148D /* HttpClick */,
 				3F79C8A21ED52F2F0095148D /* Manager */,
 				3F79C8C81ED52F2F0095148D /* Model */,
 				3F79C8D71ED52F2F0095148D /* NavControllerBase */,
-				3F79C8DC1ED52F2F0095148D /* PublicCustomViews */,
+				3F79C8831ED52F2F0095148D /* Controllers */,
 				3F79C8371ED52CA20095148D /* Main.storyboard */,
 				3F79C83A1ED52CA20095148D /* Assets.xcassets */,
 				3F79C83C1ED52CA20095148D /* LaunchScreen.storyboard */,
@@ -358,19 +423,6 @@
 				3F79C8551ED52CA20095148D /* Info.plist */,
 			);
 			path = PingPangAppUITests;
-			sourceTree = "<group>";
-		};
-		3F79C8611ED52F2F0095148D /* AuthManager */ = {
-			isa = PBXGroup;
-			children = (
-				3F79C91A1ED53F330095148D /* UserAccount.h */,
-				3F79C91B1ED53F330095148D /* UserAccount.m */,
-				3F79C91C1ED53F330095148D /* UserAccountStore.h */,
-				3F79C91D1ED53F330095148D /* UserAccountStore.m */,
-				3F79C91E1ED53F330095148D /* UserAccountInfoAdditional.h */,
-				3F79C91F1ED53F330095148D /* UserAccountInfoAdditional.m */,
-			);
-			path = AuthManager;
 			sourceTree = "<group>";
 		};
 		3F79C8621ED52F2F0095148D /* BaseView */ = {
@@ -497,8 +549,9 @@
 		3F79C8A21ED52F2F0095148D /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				3F24E3AA205CEAE50019A0BE /* AuthManager */,
+				3F24E38D205CE5C50019A0BE /* FMDBManager */,
 				3F79C8A31ED52F2F0095148D /* AuthorPermissions */,
-				3F79C8B61ED52F2F0095148D /* FMDBManager */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -542,37 +595,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		3F79C8B61ED52F2F0095148D /* FMDBManager */ = {
-			isa = PBXGroup;
-			children = (
-				3F79C8B71ED52F2F0095148D /* JCF_FMDBBlockHeader.h */,
-				3F79C8B81ED52F2F0095148D /* JCF_FMDBConfiguration.h */,
-				3F79C8B91ED52F2F0095148D /* JCF_FMDBConfiguration.m */,
-				3F79C8BA1ED52F2F0095148D /* JCF_FMDBManager.h */,
-				3F79C8BB1ED52F2F0095148D /* JCF_FMDBManager.m */,
-				3F79C8BC1ED52F2F0095148D /* JCF_FMDBModelProtocol.h */,
-				3F79C8BD1ED52F2F0095148D /* JCF_FMDBModelToSQL.h */,
-				3F79C8BE1ED52F2F0095148D /* JCF_FMDBModelToSQL.m */,
-				3F79C8BF1ED52F2F0095148D /* JCF_FMDBRunTimeModelInterface.h */,
-				3F79C8C01ED52F2F0095148D /* JCF_FMDBRunTimeModelInterface.m */,
-				3F79C8C11ED52F2F0095148D /* JCF_FMDBSQLToModel.h */,
-				3F79C8C21ED52F2F0095148D /* JCF_FMDBSQLToModel.m */,
-				3F79C8C31ED52F2F0095148D /* JCF_FMDBTypeChange.h */,
-				3F79C8C41ED52F2F0095148D /* JCF_FMDBTypeChange.m */,
-				3F79C8C51ED52F2F0095148D /* SQLStatementTool */,
-			);
-			path = FMDBManager;
-			sourceTree = "<group>";
-		};
-		3F79C8C51ED52F2F0095148D /* SQLStatementTool */ = {
-			isa = PBXGroup;
-			children = (
-				3F79C8C61ED52F2F0095148D /* JCF_FMDBSQLStatement.h */,
-				3F79C8C71ED52F2F0095148D /* JCF_FMDBSQLStatement.m */,
-			);
-			path = SQLStatementTool;
-			sourceTree = "<group>";
-		};
 		3F79C8C81ED52F2F0095148D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -603,21 +625,6 @@
 				3F79C8DB1ED52F2F0095148D /* TabBarControllerBase.m */,
 			);
 			path = NavControllerBase;
-			sourceTree = "<group>";
-		};
-		3F79C8DC1ED52F2F0095148D /* PublicCustomViews */ = {
-			isa = PBXGroup;
-			children = (
-				3F79C8DD1ED52F2F0095148D /* AuthPemissionManager */,
-			);
-			path = PublicCustomViews;
-			sourceTree = "<group>";
-		};
-		3F79C8DD1ED52F2F0095148D /* AuthPemissionManager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AuthPemissionManager;
 			sourceTree = "<group>";
 		};
 		3F79C9231ED5412F0095148D /* MainTableBarViewController */ = {
@@ -739,12 +746,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PPJ_;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = jing;
 				TargetAttributes = {
 					3F79C82A1ED52CA20095148D = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = M6G67YJ85X;
+						DevelopmentTeam = AM3524BGVT;
 						ProvisioningStyle = Automatic;
 					};
 					3F79C8431ED52CA20095148D = {
@@ -859,48 +866,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F24E3B4205CEAE50019A0BE /* UserAccountInfoAdditional.m in Sources */,
 				3F79C8EB1ED52F2F0095148D /* UIImage+ImageProcessing.m in Sources */,
 				3F79C8FA1ED52F2F0095148D /* BasePrefs.m in Sources */,
 				3F79C8F51ED52F2F0095148D /* HttpErrorShow.m in Sources */,
-				3F79C9201ED53F330095148D /* UserAccount.m in Sources */,
 				3F79C8E51ED52F2F0095148D /* TextViewBase.m in Sources */,
 				3F79C8EE1ED52F2F0095148D /* ViewControllerBaseConfiguation.m in Sources */,
 				3F79C8FC1ED52F2F0095148D /* PrefsCamera.m in Sources */,
 				3F79C8E31ED52F2F0095148D /* TableViewCellBase.m in Sources */,
+				3F24E3A1205CE5C50019A0BE /* JCF_FMDBManager.m in Sources */,
 				3F79C9391ED544330095148D /* PPJ_MineViewController.m in Sources */,
 				3F79C8E21ED52F2F0095148D /* ScrollViewBase.m in Sources */,
-				3F79C9071ED52F2F0095148D /* JCF_FMDBSQLStatement.m in Sources */,
 				3F79C8FB1ED52F2F0095148D /* PrefsAddressBook.m in Sources */,
+				3F24E3A2205CE5C50019A0BE /* JCF_FMDBModelToSQL.m in Sources */,
 				3F79C90B1ED52F2F0095148D /* CommodityModel.m in Sources */,
 				3F79C8E61ED52F2F0095148D /* ViewBase.m in Sources */,
 				3F380EA81ED559540063B73A /* PPJ_TabBarManager.m in Sources */,
 				3F79C8361ED52CA20095148D /* ViewController.m in Sources */,
 				3F79C8F21ED52F2F0095148D /* ViewControllerRightTapConfiguation.m in Sources */,
-				3F79C9011ED52F2F0095148D /* JCF_FMDBConfiguration.m in Sources */,
 				3F79C8EC1ED52F2F0095148D /* UIView+FrameLayout.m in Sources */,
 				3F79C8F01ED52F2F0095148D /* ViewControllerNavBarHiddenConfiguation.m in Sources */,
+				3F24E3B3205CEAE50019A0BE /* UserAccount.m in Sources */,
 				3F79C9091ED52F2F0095148D /* CeShiDog.m in Sources */,
 				3F79C8F61ED52F2F0095148D /* HttpClickBase.m in Sources */,
 				3F79C8DF1ED52F2F0095148D /* CollectionViewCellBase.m in Sources */,
 				3F79C8FD1ED52F2F0095148D /* PrefsLocation.m in Sources */,
 				3F79C8F41ED52F2F0095148D /* HttpEngine.m in Sources */,
 				3F79C8E11ED52F2F0095148D /* LabelBase.m in Sources */,
+				3F24E3A5205CE5C50019A0BE /* JCF_FMDBTypeChange.m in Sources */,
 				3F79C8F11ED52F2F0095148D /* ViewControllerNavButtonIteamConfiguation.m in Sources */,
-				3F79C9041ED52F2F0095148D /* JCF_FMDBRunTimeModelInterface.m in Sources */,
 				3F79C9001ED52F2F0095148D /* KapHudManager.m in Sources */,
 				3F79C8331ED52CA20095148D /* AppDelegate.m in Sources */,
-				3F79C9051ED52F2F0095148D /* JCF_FMDBSQLToModel.m in Sources */,
 				3F79C8E81ED52F2F0095148D /* NSString+Encryption.m in Sources */,
-				3F79C9211ED53F330095148D /* UserAccountStore.m in Sources */,
+				3F24E3A0205CE5C50019A0BE /* JCF_FMDBConfiguration.m in Sources */,
 				3F79C8E01ED52F2F0095148D /* ImageViewBase.m in Sources */,
 				3F79C90F1ED52F2F0095148D /* NavigationControllerBase.m in Sources */,
 				3F79C90C1ED52F2F0095148D /* ModelBase.m in Sources */,
 				3F79C9101ED52F2F0095148D /* TabBarControllerBase.m in Sources */,
-				3F79C9221ED53F330095148D /* UserAccountInfoAdditional.m in Sources */,
 				3F79C8F91ED52F2F0095148D /* KapAuthorPermissionsManager.m in Sources */,
+				3F24E3A6205CE5C50019A0BE /* JCF_FMDBSQLStatement.m in Sources */,
+				3F24E3A4205CE5C50019A0BE /* JCF_FMDBSQLToModel.m in Sources */,
 				3F79C9331ED5441D0095148D /* PPJ_StoreViewController.m in Sources */,
 				3F79C8FE1ED52F2F0095148D /* PrefsMicrophone.m in Sources */,
-				3F79C9031ED52F2F0095148D /* JCF_FMDBModelToSQL.m in Sources */,
 				3F79C8DE1ED52F2F0095148D /* ButtonBase.m in Sources */,
 				3F79C8E41ED52F2F0095148D /* TextFieldBase.m in Sources */,
 				3F79C9301ED544110095148D /* PPJ_HomeViewController.m in Sources */,
@@ -908,16 +915,17 @@
 				3F79C8E71ED52F2F0095148D /* NSString+Detection.m in Sources */,
 				3F79C8E91ED52F2F0095148D /* NSString+JSONConversion.m in Sources */,
 				3F79C8EA1ED52F2F0095148D /* NSString+TypeConversion.m in Sources */,
+				3F24E3A3205CE5C50019A0BE /* JCF_FMDBRunTimeModelInterface.m in Sources */,
 				3F79C8FF1ED52F2F0095148D /* PrefsPhoto.m in Sources */,
+				3F24E3A9205CE5DD0019A0BE /* KapFMDBManager.m in Sources */,
 				3F79C9361ED544280095148D /* PPJ_BuyViewController.m in Sources */,
 				3F79C90E1ED52F2F0095148D /* SupermarketModel.m in Sources */,
 				3F79C90D1ED52F2F0095148D /* OrderModel.m in Sources */,
-				3F79C9021ED52F2F0095148D /* JCF_FMDBManager.m in Sources */,
-				3F79C9061ED52F2F0095148D /* JCF_FMDBTypeChange.m in Sources */,
 				3F79C90A1ED52F2F0095148D /* CeShiPeople.m in Sources */,
 				3F79C8F31ED52F2F0095148D /* HMFJSONResponseSerializerWithData.m in Sources */,
 				3F79C9081ED52F2F0095148D /* CeShiCar.m in Sources */,
 				3F79C8F71ED52F2F0095148D /* HttpConfiguration.m in Sources */,
+				3F24E3B5205CEAE50019A0BE /* UserAccountStore.m in Sources */,
 				3F79C8EF1ED52F2F0095148D /* ViewControllerKeyBoardConfiguation.m in Sources */,
 				3F79C8F81ED52F2F0095148D /* HttpLogInClick.m in Sources */,
 				3F79C8ED1ED52F2F0095148D /* ViewControllerBase.m in Sources */,
@@ -984,7 +992,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -992,7 +1002,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1032,7 +1046,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1040,7 +1056,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1070,11 +1090,11 @@
 			baseConfigurationReference = 9A2A735D2D775EEE597678CE /* Pods-PingPangApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M6G67YJ85X;
+				DEVELOPMENT_TEAM = AM3524BGVT;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PingPangApp/PrefixHeader.pch";
 				INFOPLIST_FILE = PingPangApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = one.PingPangApp;
+				PRODUCT_BUNDLE_IDENTIFIER = PingPangApp.rails;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1084,11 +1104,11 @@
 			baseConfigurationReference = F75B4B7A32195356729EF2D4 /* Pods-PingPangApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M6G67YJ85X;
+				DEVELOPMENT_TEAM = AM3524BGVT;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PingPangApp/PrefixHeader.pch";
 				INFOPLIST_FILE = PingPangApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = one.PingPangApp;
+				PRODUCT_BUNDLE_IDENTIFIER = PingPangApp.rails;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

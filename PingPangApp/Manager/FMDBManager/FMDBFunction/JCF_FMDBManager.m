@@ -252,7 +252,7 @@
         value = [resultSet stringForColumn:propertyNameString];
         id obj = [JCF_FMDBConfiguration jsonToObj:value];
         if (obj){
-            NSLog(@"jsonString%@转化为->%@",value,obj);
+//            NSLog(@"jsonString%@转化为->%@",value,obj);
             value = obj;
         }
     }else if (type == SQL_DATA_TYPE_BLOB){

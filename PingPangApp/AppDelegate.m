@@ -21,7 +21,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     UITabBarController *controller = [PPJ_TabBarManager CreatedTabBarController];
     self.window.rootViewController = controller;
-    self.window.rootViewController = [[ViewController alloc] init];
+//    self.window.rootViewController = [[ViewController alloc] init];
     [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;

@@ -19,7 +19,6 @@
 #import "JCF_FMDBModelProtocol.h"
 // 只有删除和更新，更新先add add失败则change
 typedef NS_ENUM(NSInteger) {
-//    MODEL_MANAGER_TYPE_ADD = 0,
     MODEL_MANAGER_TYPE_REM = 1,
     MODEL_MANAGER_TYPE_CHANGE = 2
 }MODEL_MANAGER_TYPE;
@@ -36,11 +35,11 @@ typedef NS_ENUM(NSInteger) {
 #pragma mark 创建根据唯一标识符,设计上一个用户一个数据库
 -(instancetype)initWithDataBaseName:(NSString *)name;
 
-#pragma mark 批量___增删改
+#pragma mark 单个___增删改
 - (BOOL)updataModelByType:(MODEL_MANAGER_TYPE)type
                 WithModel:(NSObject <JCF_FMDBModelProtocol>*)model;
 
-#pragma mark 单个___增删改
+#pragma mark 批量___增删改
 - (void)updateModelsByType:(MODEL_MANAGER_TYPE)type
                 WithModels:(NSArray <NSObject <JCF_FMDBModelProtocol>*> *)models
             AndFinishBlock:(JCF_ResultBlock)block;

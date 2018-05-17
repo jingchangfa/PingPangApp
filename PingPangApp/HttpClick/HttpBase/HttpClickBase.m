@@ -14,7 +14,6 @@
 @interface HttpClickBase ()
 // HttpErrorShow 负责根据错误处理UI的,比如弹框什么的
 @property (nonatomic, strong, readonly) HttpErrorShow * apiErrorShow;
-
 @end
 
 @implementation HttpClickBase

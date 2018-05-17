@@ -18,12 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    CeShiCar *car = [CeShiCar click];
-//    CeShiCar *car2 = [CeShiCar clickTwo];
-//    CeShiCar *car3 = [CeShiCar alloc];
-//    CeShiCar *car4 = [car3 init];
-//
-//    car.class;
 }
 - (void)setContro{
     self.title = @"首页";
@@ -60,12 +54,6 @@
     [changeView addSubview:buttomLabel];
     [changeView addSubview:topLabel];
     [self.view addSubview:changeView];
-
-    
-    
-    
-
-    
 }
 - (void)bankViewInit{
     NSString *string = @"\"json\"";

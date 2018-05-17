@@ -149,7 +149,7 @@
 + (NSString *)searchSQLStringByModelClass:(Class)modelClass WithInfoDictionary:(NSDictionary *)infoDictionary{
     NSString *classNameString = NSStringFromClass(modelClass);
     //查找全部
-    if (!infoDictionary) {
+    if (!infoDictionary||infoDictionary.allKeys.count == 0) {
         return [NSString stringWithFormat:@"SELECT * FROM %@",classNameString];
     }
     NSMutableString *sqlString = [NSMutableString string];

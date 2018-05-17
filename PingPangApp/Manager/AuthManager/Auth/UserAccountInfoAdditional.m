@@ -14,12 +14,15 @@
 MJExtensionCodingImplementation
 +(NSArray *)mj_allowedCodingPropertyNames{
     // 返回归档的属性
-    return @[];
+    return @[@"ID",@"address",@"upload",@"image"];
 }
 
 - (instancetype)initWithDictionary:(NSDictionary *)infoAdditionalDictionary{
     if (self = [super init]) {
-        
+        _ID = infoAdditionalDictionary[@"id"];
+        _address = infoAdditionalDictionary[@"address"];
+        _upload = infoAdditionalDictionary[@"upload"];
+        _image = infoAdditionalDictionary[@"image"];
     }
     return self;
 }

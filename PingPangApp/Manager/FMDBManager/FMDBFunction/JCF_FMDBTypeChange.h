@@ -19,5 +19,4 @@
 @interface JCF_FMDBTypeChange : NSObject
 // model类型 -> sql类型
 + (NSString *)sqlTypeStringByPropertyTypeString:(NSString *)propertyType;
-
 @end
